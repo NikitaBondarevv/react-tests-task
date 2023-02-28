@@ -7,7 +7,7 @@ export const AppComponent = () => {
   const [user, setUser] = useState(null)
 
   return (
-    <React.Fragment>
+    <>
       <h1>Simple react app</h1>
 
       {
@@ -18,6 +18,6 @@ export const AppComponent = () => {
           /> :
           <Login login={setUser} />
       }
-    </React.Fragment>
+    </>
   )
 }
