@@ -7,7 +7,7 @@ describe('AppComponent', () => {
     expect(wrapper.find('h1').length).toBe(1);
   });
 
-  it('should set new state on setUser() and should render section from <User />', () => {
+  it('should render section from <User />', () => {
     const wrapper = mount(<AppComponent />);
     const event = {
       target: {name: {value: 'test'} },
